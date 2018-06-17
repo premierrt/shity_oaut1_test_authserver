@@ -1,0 +1,37 @@
+reoria"
+
+https://ordina-jworks.github.io/microservices/2017/09/26/Secure-your-architecture-part1.html
+https://sdtimes.com/apis/securing-microservices-the-api-gateway-authentication-and-authorization/
+--jak to powinno byc zrobione:
+https://sdtimes.com/apis/securing-microservices-the-api-gateway-authentication-and-authorization/
+http://www.swisspush.org/security/2016/10/17/oauth2-in-depth-introduction-for-enterprises
+https://www.hascode.com/2016/03/setting-up-an-oauth2-authorization-server-and-resource-provider-with-spring-boot/
+
+
++++dodac zuul gataway
+
+https://dzone.com/articles/implement-secure-microservices-with-spring-security-and-oauth-20
+
+
+
+Principal
+java.securiry
+
+
+testy
+https://dzone.com/articles/secure-spring-rest-with-spring-security-and-oauth2
+
+
+	curl -X POST \
+	  http://localhost:9000/sso/oauth/token \
+	  -H 'authorization: Basic U09NRUFQUDpTRUNSRVQ=' \
+	  -F grant_type=password \
+	  -F username=joe \
+	  -F password=password \
+	  -F client_id=SOMEAPP
+	  
+	  
+	  
+curl -X GET \
+  http://localhost:9001/greeting \
+  -H 'authorization: Bearer d43bcab5-b124-4c80-836d-fc4f3c298e6f'
