@@ -1,4 +1,11 @@
-reoria"
+----------
+import projektu do sts:
+-import existing maven projekt from scm
+
+-----------
+
+
+teoria"
 
 https://ordina-jworks.github.io/microservices/2017/09/26/Secure-your-architecture-part1.html
 https://sdtimes.com/apis/securing-microservices-the-api-gateway-authentication-and-authorization/
@@ -35,3 +42,21 @@ https://dzone.com/articles/secure-spring-rest-with-spring-security-and-oauth2
 curl -X GET \
   http://localhost:9001/greeting \
   -H 'authorization: Bearer d43bcab5-b124-4c80-836d-fc4f3c298e6f'
+  
+  
+  
+  ----------
+  scope jest dla client, nie dla usera.
+  
+  
+  
+  ----
+  nowa wersja dla jwt:
+  {
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1Mjk2NDIxMTUsInVzZXJfbmFtZSI6ImpvZSIsImF1dGhvcml0aWVzIjpbIlJPTEVfQURNSU4iXSwianRpIjoiZTNkNTUzNDItN2QwOS00YjM2LTg1YTQtOTcxMmU3Yzk4YzI3IiwiY2xpZW50X2lkIjoiU09NRUFQUCIsInNjb3BlIjpbImxldmVsXzIiLCJsZXZlbF8xIl19.t0vBzR22jVIVD_kJt3NL4NQZ0veD1JSVhohzTkNzoPU",
+    "token_type": "bearer",
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJqb2UiLCJzY29wZSI6WyJsZXZlbF8yIiwibGV2ZWxfMSJdLCJhdGkiOiJlM2Q1NTM0Mi03ZDA5LTRiMzYtODVhNC05NzEyZTdjOThjMjciLCJleHAiOjE1MzIxOTA5MTUsImF1dGhvcml0aWVzIjpbIlJPTEVfQURNSU4iXSwianRpIjoiOTgyMzk0NTctYTliMC00MjllLTk4NWYtZGI1YTk2M2FmOTIwIiwiY2xpZW50X2lkIjoiU09NRUFQUCJ9.grFfQ7lNEf20WCAy7MR_wxDXAuNOL1SbA914_rzyTRI",
+    "expires_in": 43198,
+    "scope": "level_2 level_1",
+    "jti": "e3d55342-7d09-4b36-85a4-9712e7c98c27"
+}
