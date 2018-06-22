@@ -4,6 +4,10 @@ import projektu do sts:
 
 -----------
 
+sts - git fetch problem:
+https://stackoverflow.com/questions/38117825/pullcommand-throws-nothing-to-fetch-exception-in-jgit
+https://www.eclipse.org/forums/index.php/t/277633/
+
 
 teoria"
 
