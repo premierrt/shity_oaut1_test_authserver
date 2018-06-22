@@ -45,7 +45,7 @@ https://dzone.com/articles/secure-spring-rest-with-spring-security-and-oauth2
 	  
 curl -X GET \
   http://localhost:9001/greeting \
-  -H 'authorization: Bearer d43bcab5-b124-4c80-836d-fc4f3c298e6f'
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1Mjk3NDUzNTMsInVzZXJfbmFtZSI6ImpvZSIsImF1dGhvcml0aWVzIjpbIlJPTEVfQURNSU4iXSwianRpIjoiODMwMzZiMDUtMTlkNS00YThkLTg3ZmUtNmVjYjMzMTNiZTIwIiwiY2xpZW50X2lkIjoiU09NRUFQUCIsInNjb3BlIjpbImxldmVsXzIiLCJsZXZlbF8xIl19.6MXoYHNDmgOoYPXpCnzxtgHr7mwI7WeseWa8O3CCh1o'
   
   
   
